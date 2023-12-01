@@ -1,0 +1,46 @@
+.workGrid{
+    margin: 0px 5%;
+    display: grid;
+    grid-template-areas: Area1 Area2 Area3;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+}
+
+h3{
+    font-size: 20;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+
+h1{
+    font-size: 36pt;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0bda51;
+    background-color: #86608e;
+}
+
+h4{
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b2ffff;
+}
+
+p{
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    font-family: monospace;
+}
+
+@media only screen and (max-width: 600px) {
+.workGrid{  margin: 0px 5%;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+}
+
+}
